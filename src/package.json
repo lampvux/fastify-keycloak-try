@@ -1,0 +1,37 @@
+{
+  "name": "fastify-keycloak-auth",
+  "version": "1.0.0",
+  "description": "me trying fasty and keycloak auth",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lampvux/fastify-keycloak-try.git"
+  },
+  "keywords": [
+    "fastify",
+    "keycloak"
+  ],
+  "author": "lampvux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lampvux/fastify-keycloak-try/issues"
+  },
+  "homepage": "https://github.com/lampvux/fastify-keycloak-try#readme",
+  "dependencies": {
+    "@fastify/session": "^8.2.0",
+    "ajv": "^8.11.0",
+    "dotenv": "^16.0.0",
+    "fastify": "^3.29.0",
+    "keycloak-connect": "^18.0.0"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "supertest": "^6.2.3"
+  }
+}
